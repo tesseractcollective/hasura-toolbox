@@ -1,6 +1,6 @@
 {
   "name": "@tesseractcollective/hasura-toolbox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Hasura types and helpers",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
