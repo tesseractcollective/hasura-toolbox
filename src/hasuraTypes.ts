@@ -41,6 +41,15 @@ export interface HasuraActionPayload {
   };
 }
 
+export interface HasuraCronPayload {
+  id: string,
+  name: string,
+  payload: {
+    [key: string]: any;
+  },
+  scheduled_time: string,
+}
+
 export interface HasuraEventHandler {
   handleEvent(payload: HasuraTriggerPayload): Promise<void>;
 }
